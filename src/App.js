@@ -21,6 +21,7 @@ import AppCard from "./components/props/AppCard";
 import Contador from "./components/estados/Contador";
 import ToggleButton2 from "./components/estados/ToggleButton2";
 import InputControlado from "./components/estados/InputControlado";
+import ControlledForm from "./components/estados/ControlledForm";
 
 function App() {
   return (
@@ -86,6 +87,9 @@ function App() {
         </div>
         <div className="div-card">
           <InputControlado />
+        </div>
+        <div className="div-card">
+          <ControlledForm />
         </div>
       </div>
     </div>
