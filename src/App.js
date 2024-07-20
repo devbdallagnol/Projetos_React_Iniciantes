@@ -2,6 +2,7 @@ import "./App.css";
 import Card from "./components/Card";
 import MeuComponente from "./components/MeuComponente";
 import Titulo from "./components/Titulo";
+import EstilosInline from "./components/estilos/EstilosInline";
 import MyComponent from "./components/estilos/MyComponent";
 import ArquivoB from "./components/imports_exports/ArquivoB";
 import ArquivoD from "./components/imports_exports/ArquivoD";
@@ -31,6 +32,9 @@ function App() {
         </div>
         <div className="div-card">
           <MyComponent />
+        </div>
+        <div className="div-card">
+          <EstilosInline />
         </div>
       </div>
     </div>
