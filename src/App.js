@@ -2,6 +2,7 @@ import "./App.css";
 import Card from "./components/Card";
 import MeuComponente from "./components/MeuComponente";
 import Titulo from "./components/Titulo";
+import MyComponent from "./components/estilos/MyComponent";
 import ArquivoB from "./components/imports_exports/ArquivoB";
 import ArquivoD from "./components/imports_exports/ArquivoD";
 import ArquivoF from "./components/imports_exports/ArquivoF";
@@ -27,6 +28,9 @@ function App() {
         </div>
         <div className="div-card">
           <Card />
+        </div>
+        <div className="div-card">
+          <MyComponent />
         </div>
       </div>
     </div>
