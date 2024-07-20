@@ -22,6 +22,7 @@ import Contador from "./components/estados/Contador";
 import ToggleButton2 from "./components/estados/ToggleButton2";
 import InputControlado from "./components/estados/InputControlado";
 import ControlledForm from "./components/estados/ControlledForm";
+import UncontrolledForm from "./components/estados/UncontrolledForm";
 
 function App() {
   return (
@@ -90,6 +91,9 @@ function App() {
         </div>
         <div className="div-card">
           <ControlledForm />
+        </div>
+        <div className="div-card">
+          <UncontrolledForm />
         </div>
       </div>
     </div>
