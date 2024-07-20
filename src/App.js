@@ -2,6 +2,7 @@ import "./App.css";
 import Card from "./components/Card";
 import MeuComponente from "./components/MeuComponente";
 import Titulo from "./components/Titulo";
+import ToggleButton from "./components/botoes/ToggleButton";
 import EstilosInline from "./components/estilos/EstilosInline";
 import MyComponent from "./components/estilos/MyComponent";
 import MyComponent2 from "./components/estilos/MyComponent2";
@@ -43,10 +44,16 @@ function App() {
           <MyComponent2 />
         </div>
         <div className="div-card">
-          <ConditionalRenderingExample isLoggedIn={true}/>
-        </div>
-        <div className="div-card">
-          <ConditionalRenderingExample2 isAdmin={false}/>
+          <h3>Exemplos de renderizacao</h3>
+          <div className="div-card">
+            <ConditionalRenderingExample isLoggedIn={true} />
+          </div>
+          <div className="div-card">
+            <ConditionalRenderingExample2 isAdmin={false} />
+          </div>
+          <div className="div-card">
+            <ToggleButton />
+          </div>
         </div>
       </div>
     </div>
