@@ -19,6 +19,8 @@ import Pai from "./components/props/Pai";
 import AppPai from "./components/props/AppPai";
 import AppCard from "./components/props/AppCard";
 import Contador from "./components/estados/Contador";
+import ToggleButton2 from "./components/estados/ToggleButton2";
+import InputControlado from "./components/estados/InputControlado";
 
 function App() {
   return (
@@ -78,6 +80,12 @@ function App() {
         </div>
         <div className="div-card">
           <Contador />
+        </div>
+        <div className="div-card">
+          <ToggleButton2 />
+        </div>
+        <div className="div-card">
+          <InputControlado />
         </div>
       </div>
     </div>
