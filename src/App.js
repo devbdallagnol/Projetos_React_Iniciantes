@@ -14,6 +14,7 @@ import ConditionalRenderingExample from "./components/renderizacoes/ConditionalR
 import ConditionalRenderingExample2 from "./components/renderizacoes/ConditionalRenderingExample2";
 import AppHook from "./components/hooks/AppHook";
 import Pai from "./components/props/Pai";
+import AppPai from "./components/props/AppPai";
 
 function App() {
   return (
@@ -66,6 +67,7 @@ function App() {
         <div className="div-card">
           <h3>Utilizando Props</h3>
           <Pai />
+          <AppPai />
         </div>
       </div>
     </div>
