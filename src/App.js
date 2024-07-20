@@ -18,6 +18,7 @@ import AppHook from "./components/hooks/AppHook";
 import Pai from "./components/props/Pai";
 import AppPai from "./components/props/AppPai";
 import AppCard from "./components/props/AppCard";
+import Contador from "./components/estados/Contador";
 
 function App() {
   return (
@@ -74,6 +75,9 @@ function App() {
           <div className="div-card">
             <AppCard />
           </div>
+        </div>
+        <div className="div-card">
+          <Contador />
         </div>
       </div>
     </div>
