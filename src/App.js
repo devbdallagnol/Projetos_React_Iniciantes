@@ -13,6 +13,7 @@ import ArquivoH from "./components/imports_exports/ArquivoH";
 import ConditionalRenderingExample from "./components/renderizacoes/ConditionalRenderingExample";
 import ConditionalRenderingExample2 from "./components/renderizacoes/ConditionalRenderingExample2";
 import AppHook from "./components/hooks/AppHook";
+import Pai from "./components/props/Pai";
 
 function App() {
   return (
@@ -58,9 +59,13 @@ function App() {
           <div className="div-card">
             <MeuComponente />
           </div>
-          <div className="div-card">
-            <AppHook />
-          </div>
+        </div>
+        <div className="div-card">
+          <AppHook />
+        </div>
+        <div className="div-card">
+          <h3>Utilizando Props</h3>
+          <Pai />
         </div>
       </div>
     </div>
