@@ -10,6 +10,7 @@ import ArquivoD from "./components/imports_exports/ArquivoD";
 import ArquivoF from "./components/imports_exports/ArquivoF";
 import ArquivoH from "./components/imports_exports/ArquivoH";
 import ConditionalRenderingExample from "./components/renderizacoes/ConditionalRenderingExample";
+import ConditionalRenderingExample2 from "./components/renderizacoes/ConditionalRenderingExample2";
 
 function App() {
   return (
@@ -43,6 +44,9 @@ function App() {
         </div>
         <div className="div-card">
           <ConditionalRenderingExample isLoggedIn={true}/>
+        </div>
+        <div className="div-card">
+          <ConditionalRenderingExample2 isAdmin={false}/>
         </div>
       </div>
     </div>
