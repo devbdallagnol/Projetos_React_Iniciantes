@@ -12,6 +12,7 @@ import ArquivoF from "./components/imports_exports/ArquivoF";
 import ArquivoH from "./components/imports_exports/ArquivoH";
 import ConditionalRenderingExample from "./components/renderizacoes/ConditionalRenderingExample";
 import ConditionalRenderingExample2 from "./components/renderizacoes/ConditionalRenderingExample2";
+import AppHook from "./components/hooks/AppHook";
 
 function App() {
   return (
@@ -56,6 +57,9 @@ function App() {
           </div>
           <div className="div-card">
             <MeuComponente />
+          </div>
+          <div className="div-card">
+            <AppHook />
           </div>
         </div>
       </div>
