@@ -15,13 +15,16 @@ code {
 .div-cards {
   display: flex;
   justify-content: center;
-  margin: 0 auto;
-  padding: 5px auto;
-  
+  margin: 0px auto;
+
+  flex-direction: column;
+}
+
+.div-card {
   width: 90%;
+  margin: 10px auto;
   background-color: #e2e2e2;
   border: 1px solid #2b2b2b;
   border-radius: 10px;
   box-shadow: 1px 1px #1c1c1c;
-
 }
