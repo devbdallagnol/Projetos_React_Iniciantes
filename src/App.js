@@ -1,4 +1,6 @@
 import "./App.css";
+
+// components
 import Card from "./components/Card";
 import MeuComponente from "./components/botoes/MeuComponente";
 import Titulo from "./components/Titulo";
@@ -15,6 +17,7 @@ import ConditionalRenderingExample2 from "./components/renderizacoes/Conditional
 import AppHook from "./components/hooks/AppHook";
 import Pai from "./components/props/Pai";
 import AppPai from "./components/props/AppPai";
+import AppCard from "./components/props/AppCard";
 
 function App() {
   return (
@@ -68,6 +71,9 @@ function App() {
           <h3>Utilizando Props</h3>
           <Pai />
           <AppPai />
+          <div className="div-card">
+            <AppCard />
+          </div>
         </div>
       </div>
     </div>
