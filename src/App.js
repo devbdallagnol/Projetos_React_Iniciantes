@@ -1,6 +1,6 @@
 import "./App.css";
 import Card from "./components/Card";
-import MeuComponente from "./components/MeuComponente";
+import MeuComponente from "./components/botoes/MeuComponente";
 import Titulo from "./components/Titulo";
 import ToggleButton from "./components/botoes/ToggleButton";
 import EstilosInline from "./components/estilos/EstilosInline";
@@ -53,6 +53,9 @@ function App() {
           </div>
           <div className="div-card">
             <ToggleButton />
+          </div>
+          <div className="div-card">
+            <MeuComponente />
           </div>
         </div>
       </div>
