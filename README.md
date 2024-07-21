@@ -1,4 +1,4 @@
-![Busca de CEP](9_CONSUMINDO_API_CORREIOS\consumindo-api-correios\public\print.png)
+![Busca de CEP](9_CONSUMINDO_API_CORREIOS/consumindo-api-correios/public/print.png)
 
 # Getting Started with Create React App
 
