@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./CorreiosAPI.css";
 
 function CorreiosAPI() {
   const [cep, setCep] = useState("");
@@ -27,7 +28,7 @@ function CorreiosAPI() {
   };
 
   return (
-    <div className="App">
+    <div className="Consulta">
       <h1>Consulta de CEP</h1>
       <div>
         <input
@@ -40,11 +41,11 @@ function CorreiosAPI() {
         {erro && <p className="erro">{erro}</p>}
       </div>
       <h2>Dados do Endereço</h2>
-      <p>CEP: {endereco.cep}</p>
-      <p>Rua: {endereco.logradouro}</p>
-      <p>Bairro: {endereco.bairro}</p>
-      <p>Cidade: {endereco.localidade}</p>
-      <p>Estado: {endereco.uf}</p>
+      <p><strong>CEP:</strong> {endereco.cep}</p>
+      <p><strong>Rua:</strong> {endereco.logradouro}</p>
+      <p><strong>Bairro: </strong>{endereco.bairro}</p>
+      <p><strong>Cidade:</strong> {endereco.localidade}</p>
+      <p><strong>Estado:</strong> {endereco.uf}</p>
     </div>
   );
 }
