@@ -1,9 +1,4 @@
-<img src="img/lista_tarefas.png" width="200px" alt="Tela Login">
-<img src="img/consulta_cep.png" width="200px" alt="Tela Login">
-<img src="img/relogio_digital.png" width="200px" alt="Tela Login">
-<img src="img/tela_login.png" width="200px" alt="Tela Login">
-<img src="img/calculadora_simples.png" width="200px" alt="Tela Login">
-<img src="img/calculadora_imc.png" width="200px" alt="Tela Login">
+<img src="img/projetos.png" width="500px" alt="Tela Login">
 
 <hr>
 
