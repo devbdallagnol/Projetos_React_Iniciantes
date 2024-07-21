@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import axios from "axios";
 
 function App() {
   // Definindo um estado inicial 'data' como um array vazio e um método 'setData'
@@ -7,25 +8,19 @@ function App() {
 
   useEffect(() => {
     // Dentro do useEffect, estamos fazendo uma solicitacao GET usando o metodo nativo 'fetch'
-    fetch("https://jsonplaceholder.typicode.com/posts")
+    axios.get("https://jsonplaceholder.typicode.com/posts")
       .then((response) => {
-        // Verificamos se a resposta não tem um status HTTP de erro(ex: 404 ou 500)
-        if (!response.ok) {
-          throw new Error("Erro ao buscar dados");
-        }
+        // Quando a solicitacao é bem-sucedida, atualizamos o estado 'data' com os dados da resposta
+        setData(response.data);
+        
+        })
 
-        // Se a resposta estiver OK, convertemos os dados da resposta em formato JSON
-        return response.json();
-      })
-      .then((jsonData) => {
-        // Quando a conversão para JSON é concluída, atualizamos o estado 'data' com os dados obtidos
-        setData(jsonData);
-      })
-      .catch((error) => {
-        // Se ocorrer um erro durante o processo, registramos o erro no console
-        console.error("Erro ao buscar dados:", error);
-      });
-  }, []); // O array vazio[] como segundo argumento faz com que este efeito seja executado uma vez após a montagem do componente
+        .catch((error) => {
+          // Sehouver um erro na solicitacao, registramos o erro no console
+          console.error("Erro ao buscar os dados:", error);
+        });
+      }, []); // O array vazio[] como segundo argumento faz com que este efeito seja executado apenas uma vez após a montagem do componente
+
 
   // Renderizando o componente
   return (
@@ -41,7 +36,7 @@ function App() {
         ))}
       </ul>
     </div>
-  )
+  );
 }
 
 export default App;
