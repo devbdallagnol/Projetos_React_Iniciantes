@@ -1,12 +1,10 @@
 import React from "react";
-import Login from "./components/Login";
-import Clock from "./components/Clock";
+import Calculator from "./components/Calculator";
 
 const App = () => {
   return (
     <div>
-      <Login />
-      <Clock />
+      <Calculator />
     </div>
   );
 };
