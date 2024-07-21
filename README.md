@@ -1,3 +1,5 @@
+![Busca de CEP](9_CONSUMINDO_API_CORREIOS\consumindo-api-correios\public\print.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
