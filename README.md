@@ -1,72 +1,68 @@
-![Busca de CEP](9_CONSUMINDO_API_CORREIOS/consumindo-api-correios/public/print.png)
+<img src="img/lista_tarefas.png" width="200px" alt="Tela Login">
+<img src="img/consulta_cep.png" width="200px" alt="Tela Login">
+<img src="img/relogio_digital.png" width="200px" alt="Tela Login">
+<img src="img/tela_login.png" width="200px" alt="Tela Login">
+<img src="img/calculadora_simples.png" width="200px" alt="Tela Login">
+<img src="img/calculadora_imc.png" width="200px" alt="Tela Login">
 
-# Getting Started with Create React App
+<hr>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React - Projetos React Iniciantes
 
-## Available Scripts
+Bem-vindo ao "Projetos React Iniciantes"! 🚀 Este é um repositório dedicado ao projeto React para Iniciantes, ministrado por flavio.
 
-In the project directory, you can run:
+## Descrição
 
-### `npm start`
+Projetos React Iniciantes é uma aplicação web que oferece uma variedade de recursos e conteúdos relacionados a diversos projetos básicos e intermediários. Este repositório contém o código-fonte e os arquivos essenciais para executar a aplicação em sua máquina local.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funcionalidades Principais
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🌐 Instruções dos Projetos
+- 📚 Recursos Interativos
+- 💻 Ambiente de Desenvolvimento Integrado (IDE)
 
-### `npm test`
+## Instruções de Instalação
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Siga estas etapas para configurar o Projetos React Iniciantes em sua máquina:
 
-### `npm run build`
+1. **Clone o Repositório:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/devbdallagnol/Projetos_React_Iniciantes
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Acesse a pasta:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   cd ...\\PASTA_ESCOLHIDA
+   ```
 
-### `npm run eject`
+3. **Instale as dependências:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   ```
+   
+4. **Rode o projeto:**
+    > Windows | Linux
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm start ou "npm run dev"
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Contribuição
 
-## Learn More
+Contribuições são bem-vindas! Se você deseja melhorar o projeto, siga estas diretrizes:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Faça um Fork do projeto
+2. Crie uma nova branch `git checkout -b feature/nova-feature`
+3. Faça commit das suas alterações `git commit -am 'Adiciona nova feature'`
+4. Faça push para a branch `git push origin feature/nova-feature`
+5. Abra um Pull Request
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Contato
 
-### Code Splitting
+Se precisar de ajuda ou tiver alguma dúvida, sinta-se à vontade para entrar em contato:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desenvolvedor: @devbdallagnol
