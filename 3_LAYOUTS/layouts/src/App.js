@@ -3,6 +3,7 @@ import CardBody from "./components/CardBody";
 import Footer from "./components/Footer";
 import ListaDePessoas from "./components/ListaDePessoas";
 import NavBar from "./components/NavBar";
+import Home from "./roteamentos/Home";
 
 function App() {
   const pessoas = [
@@ -16,6 +17,8 @@ function App() {
       <NavBar />
       <CardBody />
       <ListaDePessoas pessoas={pessoas}/>
+      <hr />
+      <Home />
       <Footer />
     </div>
   );
